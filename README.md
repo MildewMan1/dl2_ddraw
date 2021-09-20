@@ -13,3 +13,11 @@ Note: You will still need to copy the *.cam, *.hdd, and *.hdx files from your CD
 4) When trying to play the patched 1.20 version, the screen typically goes black for most users and won't display correctly.
 This is due to the code that they used to show the blue cursor. This code prevents the cursor from loading, and instead
 allows you to use the normal Windows cursor.
+
+How do I use this?
+1) You can either try to download the compiled DLLs found in the DL2_* folders, or
+2) You can download the source code and compile the DLLs for yourself (recommended to reduce chance of compatibility errors).
+
+The included DLLs were compiled against Windows 10 SDK version 10.0.16299.0, so they might not work on Windows 7 or earlier. If they don't, you will need to compile them yourself against a different Windows SDK.
+
+The code uses Microsoft Detours to hook functions, so you may or may not need to install that to use these DLLs. It can be found on their Github repo (https://github.com/microsoft/Detours) if needed.
