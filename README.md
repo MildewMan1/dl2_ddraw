@@ -19,8 +19,11 @@ How do I use this?
 2) You can download the source code and compile the DLLs for yourself (recommended to reduce chance of compatibility errors).
 
 Put the correct "ddraw.dll" into the game folder. The following lists which dll goes with which version:
+
 DL2_256 = Original CD release version 1.0.
+
 DL2_288 = Version 1.20 patched version.
+
 DL2_DEMO = Demo version of the game.
 
 The included DLLs were compiled against Windows 10 SDK version 10.0.16299.0, so they might not work on Windows 7 or earlier. If they don't, you will need to compile them yourself against a different Windows SDK.
