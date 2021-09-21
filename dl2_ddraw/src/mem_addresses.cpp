@@ -29,7 +29,6 @@ CreateWindowExA_TYPE pCreateWindowExA = CreateWindowExA;
 	int* cdVerified = (int*)0x4D02BC;
 	int* cdFound = (int*)0x4D59AC;
 	char* cdPath = (char*)0x58F20C;
-	int* sgBitDepth = (int*)0x;
 	OFFPORT* GamelibOffport = (OFFPORT*)0x65E644;
 
 	CopyProtect_TYPE* pCopyProtect = (CopyProtect_TYPE*)0x4D02B8;
@@ -95,7 +94,6 @@ CreateWindowExA_TYPE pCreateWindowExA = CreateWindowExA;
 	int* cdVerified = (int*)0x4C1350;
 	int* cdFound = (int*)0x4C6954;
 	char* cdPath = (char*)0x57E2F4;
-	int* sgBitDepth = (int*)0x;
 
 	CopyProtect_TYPE* pCopyProtect = (CopyProtect_TYPE*)0x4C12E4;
 	CopyProtect_TYPE pPassCopyProtect = (CopyProtect_TYPE)0x44F0B9;
