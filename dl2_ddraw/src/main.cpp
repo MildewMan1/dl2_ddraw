@@ -205,7 +205,7 @@ int __stdcall StartDirectDraw(HWND hWnd, BOOL exclusive, int w, int h, int depth
 	*pgWindowWidth = w; //store w in DL2 global variable.
 	*pgWindowHeight = h; //store h in DL2 global variable.
 
-	pAllocateDIBOffport(GamelibOffport, w, h, depth);
+	AllocateDIBOffport(GamelibOffport, w, h, depth);
 	GamelibOffport->flags = 6; //game uses this flag to distinguish the primary offport.
 
 	RECT rect;
