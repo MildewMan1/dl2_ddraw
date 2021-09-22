@@ -29,7 +29,7 @@ HWND __stdcall myCreateWindowExA(DWORD dwExStyle, LPCSTR lpClassName, LPCSTR lpW
 		return pCreateWindowExA(0, lpClassName, lpWindowName, (WS_CAPTION | WS_SYSMENU), 0, 0, nWidth, nHeight, hWndParent, hMenu, hInstance, lpParam);
 	}
 
-	return pCreateWindowExA(0, lpClassName, lpWindowName, dwStyle, X, Y, nWidth, nHeight, hWndParent, hMenu, hInstance, lpParam);
+	return pCreateWindowExA(dwExStyle, lpClassName, lpWindowName, dwStyle, X, Y, nWidth, nHeight, hWndParent, hMenu, hInstance, lpParam);
 }
 
 void __stdcall SetupDIBPixelFormat(void)
